@@ -3,7 +3,7 @@ import re
 from pymongo import MongoClient
 
 client = MongoClient('mongodb://localhost:27017/')
-db = client['admin']
+db = client['recommendation_system']
 users_collection = db['users']
 products_collection = db['products']
 browsing_history_collection = db['browsing_history']

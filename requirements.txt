@@ -1,0 +1,4 @@
+Faker==28.1.0
+mlxtend==0.23.1
+pandas==2.2.2
+pymongo==4.8.0
